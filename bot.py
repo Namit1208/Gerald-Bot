@@ -27,6 +27,6 @@ async def load_cogs():
 async def main():
     async with bot:
         await load_cogs()
-        await bot.start("MTM0NjU3NjI1ODU5NDY0MDAwMw.G9NmWx.xMUANd7MSWw00h2FX1C_kGuJyCdJVdH5xtFoMo")
+        await bot.start("Give in Text Box")
 
 asyncio.run(main())
