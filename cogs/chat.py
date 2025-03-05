@@ -4,7 +4,7 @@ import google.generativeai as genai
 import asyncio
 
 # Configure Gemini API
-genai.configure(api_key="AIzaSyAE4dmSfPkygp1ddzhJkOs1w_ReLwLa1bc")
+genai.configure(api_key="Given in Text box")
 
 class ChatCog(commands.Cog):
     def __init__(self, bot):
