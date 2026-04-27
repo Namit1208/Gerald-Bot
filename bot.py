@@ -18,11 +18,11 @@ async def load_cogs():
             cog_name = f"cogs.{filename[:-3]}"
             try:
                 if cog_name in bot.extensions:
-                    await bot.unload_extension(cog_name)  # ✅ Unload first
-                await bot.load_extension(cog_name)  # ✅ Load fresh
-                print(f"✅ Loaded {filename}")
+                    await bot.unload_extension(cog_name) 
+                await bot.load_extension(cog_name)  
+                print(f" Loaded {filename}")
             except Exception as e:
-                print(f"❌ Failed to load {filename}: {e}")
+                print(f" Failed to load {filename}: {e}")
 
 async def main():
     async with bot:
